@@ -1,0 +1,155 @@
+/* CSS Document */
+html{
+	scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #131313;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dauX {
+    width: 30px;
+    height: 19px;
+/*    background: pink;*/
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.dauX a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    position: fixed;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+/*wrapper1*/
+.wrapper1{
+	width: 682.5px;
+	height: 200px;
+/*	background: #E83135;*/
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.text1{
+	width: 682.5px;
+	height: 140px;
+/*	background: #1ABF13;*/
+	margin: 60px 0px;
+	text-align: center;
+}
+.text1 p{
+	color: #9F9F9F;
+    font-size: 15px;
+}
+.text1 h2{
+	font-size: 81.9px;
+	color: white;
+}
+/*container2*/
+.container2{
+	width: 1600px;
+	height: 100px;
+/*	background: yellow;*/
+	margin: 0 auto;
+}
+/*wrapper2*/
+.wrapper2{
+	width: 1600px;
+	height: 120px;
+/*	background: pink;*/
+	margin-top: 10px;
+}
+.text2 p{
+	font-size: 16px;
+	color: #9F9F9F;
+	font-style: italic;
+	margin-left: 40px;
+}
+/*wrapper3*/
+.wrapper3{
+	width: 1600px;
+	height: 3600px;
+/*	background: pink;*/
+	margin: 0 auto;
+	margin-top: 40px; 
+}
+.hover-img {
+    width: 100%;
+    height: 460px;
+/*    background: red;*/
+    box-sizing: border-box;
+    text-align: center;
+}
+.hover-img img {
+    height: 200px;
+    transition: all 1s;
+	border-radius: 20px;
+}
+.hover-img img:hover {
+    box-shadow: 3px 6px 21px 0px rgba(0,0,0,0.75);
+    transform: scale(1.8);
+	border-radius: 20px;
+}
+.hover-img .hinhne3 {
+    width: 300px;
+    height: 170px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 90px;
+  z-index: 99;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+	
+}
+
+#myBtn:hover {
+/*  background-color: #555;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
